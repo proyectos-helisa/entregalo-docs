@@ -49,3 +49,4 @@ Solo debe ser visible si la remesa se cumplió
 | Fecha de salida | si | Indicar fecha de salida|
 | Horas  minutos | si | Ingresar horas y minutos de la fecha de salida | 
 | Observaciones | no | Ingresar texto de observaciones del cumplimiento/ suspensión de la carga 
+

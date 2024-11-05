@@ -22,37 +22,37 @@ Un vehículo es cualquier medio de transporte utilizado para el traslado de carg
 
 ### Creación de vehículos y remolques
 
-| Nombre del campo | Requerido | Descrpción |
+| Nombre del campo | Requerido | Descripción |
 |------------------| ----------| ---------- |
-| Placa |  si      | Combinación de caracteres alfabéticos y/o numéricos que identifican el vehiculo 
-| Es propio | no   | Marcar solo si el vehiculo es propio |
-| Configuración | si | Tipo de vehiculo |
-| Marca | no | Marca de vehiculo 
-| Año del modelo | no | Año del vehiculo 
-| Peso vacío | si | Peso propio del vehiculo sin carga
-| Carrocería | si | Tipo de estructura externa del vehiculo 
-| Tipo de combustibe | no | tipo de combustible del vehiculo 
+| Placa |  si      | Combinación de letras, números y/o caracteres que identifican el vehículo 
+| Es propio | no   | Marcar solo si el vehículo es propio |
+| Configuración | si | Tipo de vehículo |
+| Marca | no | Marca de vehículo 
+| Año del modelo | no | Año del vehículo 
+| Peso vacío | si | Peso propio del vehículo sin carga
+| Carrocería | si | Tipo de estructura externa del vehículo 
+| Tipo de combustible | no | Tipo de combustible del vehículo 
 
 ### Información del SOAT
 
-| Nombre del campo | Requerido | Descrpción |
+| Nombre del campo | Requerido | Descripción |
 |------------------| ----------| ---------- |
-| Número de poliza | no        | Combiacion de caracteres alfabeticos y/o números de póliza del soat del vehiculo 
-| Vencimiento | no             | Fecha de vvencimiento del SOAT
-| Aseguradoras | no            | Aseguradora del vehiculo 
+| Número de póliza | no        | Combinación de letras, números y/o caracteres de póliza del soat del vehículo 
+| Vencimiento | no             | Fecha de vencimiento del soat
+| Aseguradoras | no            | Aseguradora del vehículo 
 
 ### Informacipon del propietario 
 
-| Nombre del campo | Requerido | Descrpción |
+| Nombre del campo | Requerido | Descripción |
 |------------------| ----------| ---------- |
-| Tipo de documento | si       | Tipo de documento del propietario del vehiculo 
-| Número de documento | si | Combiacion de caracteres alfabeticos y/o números del documento del propietario del vehiculo 
-| tercero | si                 | nombre del tercero (debe estar registrado en terceros)
+| Tipo de documento | si       | Tipo de documento del propietario del vehículo 
+| Número de documento | si | Combinación de letras, números y/o caracteres del documento del propietario del vehículo 
+| tercero | si                 | Nombre del tercero (debe estar registrado previamente en terceros)
 
 #### Informacipon del Tenedor
 
-| Nombre del campo | Requerido | Descrpción |
+| Nombre del campo | Requerido | Descripción |
 |------------------| ----------| ---------- |
-|Tipo de documento | si        |tipo de documento del tenedor del vehiculo 
-| Número de documento |si      | Combiacion de caracteres alfabeticos y/o números del documento del tenedor del vehiculo 
-| Tercero | si                 | nombre del tercero (debe estar registrado en terceros)
+|Tipo de documento | si        |Tipo de documento del tenedor del vehículo 
+| Número de documento |si      | Combinación de letras, números y/o caracteres del documento del tenedor del vehículo 
+| Tercero | si                 | Nombre del tercero (debe estar registrado previamente en terceros)

@@ -15,8 +15,8 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'jcgato93', // Usually your GitHub org/user name.
-  projectName: 'transportation_front', // Usually your repo name.
+  organizationName: 'proyectos-helisa', // Usually your GitHub org/user name.
+  projectName: 'entregalo-docs', // Usually your repo name.
   trailingSlash: false,
 
   onBrokenLinks: 'throw',

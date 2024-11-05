@@ -25,8 +25,8 @@ Un tercero es cualquier entidad o individuo que participa en el proceso de trans
 | --------------- | --------- | ----------- |
 | Tipo de tercero |    si     | Persona o institución que se relaciona con la empresa|
 | Tipo de documento |  no     | Tipo de documento con el que se relacione el tercero |
-| Número de documento | no    | Número de docuemtno del tercero |
-| Nombre o razón social | si  | Nombre o razon social de tercero |  
+| Número de documento | no    | Combinación de letras, números y/o caracteres relacionados al documento del tercero |
+| Nombre o razón social | si  | Nombre o razón social de tercero |  
 | Apellido |      no          | Apellido del tercero |
 | Segundo Apellido| no        | Segundo apellido del tercero 
 
@@ -36,14 +36,15 @@ Un tercero es cualquier entidad o individuo que participa en el proceso de trans
 
 | Nombre de campo | Requerido | Descripción |
 | --------------- | --------- | ----------- |
-| Código de sucursal |   no   | Consecutivo asignado a la sucursal |
-| Nombre de sucusal |  no     | Nombre de a sucursal 
+| Código de sucursal |   no   | Combinación de letras, números y/o caracteres relacionados al consecutivo asignado a la sucursal |
+| Nombre de sucursal |  no     | Nombre de a sucursal 
 | Número de contacto |  si    | Numero de contacto de sucursal |
 | Celular |       no          | Numero celular de contacto de sucursal |
-| Dirección | si              | Direccion de la sucursal |
-| Departamento | si           | Departamento donde se ubica la sucursal 
-| Latitud | no                | Latitud de ubicacion de sucursal |
-| Longitud | no               | Longitud de ubicacion de sucursal 
+| Dirección | si              | Dirección de la sucursal |
+| Departamento | si           | Departamento donde se ubica la sucursal |
+| Municipio | si              | Municipio donde se ubica la sucursal ( Las opciones se visualizan una vez se seleccione el Departamento) |
+| Latitud | no                | Latitud de ubicación de sucursal |
+| Longitud | no               | Longitud de ubicación de sucursal 
 | Régimen simple | no         | Marcar solo si el tercero pertenece al régimen simple |
 
 
@@ -51,15 +52,15 @@ Un tercero es cualquier entidad o individuo que participa en el proceso de trans
 
 | Nombre de campo | Requerido | Descripción |
 | --------------- | --------- | ----------- |
-| Aplica retencion en la fuente | no | Marcar solo si el tercero aplica retención en la fuente|
+| Aplica retención en la fuente | no | Marcar solo si el tercero aplica retención en la fuente|
 | Aplica ICA | no | Marcar solo si el tercero aplica ICA|
-| Aplica contrao de mandato | no | Marcar solo si el tercero aplica contrato de mandato |
-| Tipo de contrubuyente | no | persona natural o jurídica |
-| Régimen de impuestos | no | Régimen de impustos al que pertenece el tercero |
+| Aplica contrato de mandato | no | Marcar solo si el tercero aplica contrato de mandato |
+| Tipo de contribuyente | no | Seleccionar si el tercero es persona natural o jurídica |
+| Régimen de impuestos | no | Régimen de impuestos al que pertenece el tercero |
 | Responsabilidad fiscal/tributaria | no | Responsabilidad fiscal/tributaria al que pertenece el tercero|
 | Actividad económica | no | Actividad económica del tercero |
-| Correo electronicp | no | correo electronico del tercero 
-| Código postal | no | codigo postal del tercero |
-| Nombre responsable documentos electrónicos | no | nombre de responsablede de documentos electronicos de tercero 
-| Correo respnsable documentos electrónicos | no | correo de responsable de documentos electronicos de tercero |
-| Teléfono responsable documentos electrónicos | no| telefono de responsable de documentos electronicos de tercero |
+| Correo electrónico | no | Correo electrónico del tercero 
+| Código postal | no | Ingresar código postal del tercero |
+| Nombre responsable documentos electrónicos | no | Nombre de responsable de documentos electrónicos de tercero 
+| Correo responsable documentos electrónicos | no | Correo de responsable de documentos electrónicos de tercero |
+| Teléfono responsable documentos electrónicos | no| Teléfono de responsable de documentos electrónicos de tercero |

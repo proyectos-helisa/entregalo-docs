@@ -32,7 +32,7 @@ Al finalizar se guarda como un borrador que puede ser editado mientras esta en e
 | Consecutivo de la remesa | si | Combinación de caracteres, letras y/o números únicos de la remesa a registrar |
 | Valor de la remesa |  si       | Valor en pesos de la remesa a registrar |
 | Tipo de operación | no        | Tipo de operación de la remesa |
-| Tipo de empaque | no | T ipo de empaque de la carga |
+| Tipo de empaque | no | Tipo de empaque de la carga |
 
 ### Características del producto 
 
@@ -40,16 +40,16 @@ Al finalizar se guarda como un borrador que puede ser editado mientras esta en e
 | ---------------- | --------- | ----------- |
 | Naturaleza de la carga | no  | Naturaleza de la carga |
 | Descripción corta del producto | no | Descripción corta de producto| 
-| Cantidad de carga | si | cantidad de la carga (valor numérico) |
-| Unidad de medida | no | unidad de medida de la cantidad de carga |
+| Cantidad de carga | si | Cantidad de la carga (valor numérico) |
+| Unidad de medida | no | Unidad de medida de la cantidad de carga |
 
 ### Propietario de la carga / Generador de carga / Contratante 
 
 | Nombre del campo | Requerido | Descripción |
 | ---------------- | --------- | ----------- |
-| Tipo de documento | si       | tipo de documento del propietario de la carga |
-| Número de documento | si     | combinación de caracteres, letras y/o números del documento del propietario de la carga |
-| Sedes | si | Sede de carga del propietario de la carga (El propietario de la carga debe estar registrado en terceros) |
+| Tipo de documento | si       | Tipo de documento del propietario de la carga |
+| Número de documento | si     | Combinación de caracteres, letras y/o números del documento del propietario de la carga |
+| Sedes | si | Sede de carga del propietario de la carga (El propietario de la carga debe estar registrado previamente en terceros para acceder a las sedes registradas) |
 
 ### Remitente: Sitio de cargue 
 
@@ -58,7 +58,7 @@ Al finalizar se guarda como un borrador que puede ser editado mientras esta en e
 | ---------------- | --------- | ----------- |
 | Tipo de documento | si       | Tipo de documento del remitente de la carga |
 | Número de documento | si     | Combinación de caracteres, letras y/o números del documento del remitente de la carga |
-| Sedes | si | Sede de cargue del remitente de la carga (El remitente de la carga debe estar registrado en terceros) |
+| Sedes | si | Sede de cargue del remitente de la carga (El remitente de la carga debe estar registrado previamente en terceros para acceder a las sedes registradas ) |
 
 ### Remitente: Sitio de descargue
 
@@ -66,7 +66,7 @@ Al finalizar se guarda como un borrador que puede ser editado mientras esta en e
 | ---------------- | --------- | ----------- |
 | Tipo de documento | si       | Tipo de documento del destinatario de la carga |
 | Número de documento | si     | Combinación de caracteres, letras y/o números del documento del destinatario de la carga |
-| Sedes | si | Sede de descargue del destinatario de la carga (El destinatario de la carga debe estar registrado en terceros) |
+| Sedes | si | Sede de descargue del destinatario de la carga (El destinatario de la carga debe estar registrado previamente en terceros para acceder a las sedes registradas ) |
 
 ### Póliza
 

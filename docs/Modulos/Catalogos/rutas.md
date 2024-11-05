@@ -26,18 +26,22 @@ Una ruta es el trayecto que sigue un vehículo desde su origen hasta su destino,
 | Nombre de campo | Requerido | Descripción |
 | --------------- | --------- | ----------- |
 | Departamento | si | Departamento de origen de la ruta|
-| Municipio | si | Municipio de origen de la ruta|
+| Municipio | si | Municipio de origen de la ruta (Debe ser visible una vez se seleccione el departamento) |
 
 ### Destino 
 
 | Nombre de campo | Requerido | Descripción |
 | --------------- | --------- | ----------- |
 | Departamento | si | Departamento de destino de la ruta|
-| Municipio | si | Municipio de destino de la ruta|
+| Municipio | si | Municipio de destino de la ruta (Debe ser visible una vez se seleccione el departamento) ||
 
 ### Paradas 
 
+Se pueden ingresar varias paradas 
+
+
 | Nombre de campo | Requerido | Descripción |
 | --------------- | --------- | ----------- |
-| Departamento | no | departamento de parada de la ruta |
-| Municipio | no | Municipio de parada de la ruta|
+| Departamento | no | Departamento de parada de la ruta |
+| Municipio | no | Municipio de parada de la ruta (Debe ser visible una vez se seleccione el departamento) ||
+
