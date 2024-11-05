@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkentregalo_documentacion=self.webpackChunkentregalo_documentacion||[]).push([[276],{9282:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/entregalo-docs/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkentregalo_documentacion=self.webpackChunkentregalo_documentacion||[]).push([[1903],{1912:e=>{e.exports=JSON.parse('{"blogBasePath":"/entregalo-docs/blog","blogTitle":"Blog","authorsListPath":"/entregalo-docs/blog/authors"}')}}]);
