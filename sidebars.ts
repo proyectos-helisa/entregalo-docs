@@ -1,4 +1,4 @@
-import type { SidebarsConfig } from '@docusaurus/plugin-content-docs';
+import type { SidebarsConfig } from "@docusaurus/plugin-content-docs";
 
 /**
  * Creating a sidebar enables you to:
@@ -16,42 +16,94 @@ const sidebars: SidebarsConfig = {
 
   // But you can create a sidebar manually
   tutorialSidebar: [
-    'introduccion',
-    'licencias',
+    "introduccion",
     {
-      type: 'category',
-      label: 'Módulos',
+      type: "category",
+      label: "Módulos",
       items: [
-        'Modulos/dashboard',
+        "Modulos/dashboard",
         {
-          type: 'category',
-          label: 'Operaciones',
+          type: "category",
+          label: "Catálogos",
           link: {
-            type: 'generated-index',
-            title: 'Operaciones',
+            type: "generated-index",
+            title: "Catálogos",
             description:
-              'El módulo de Operaciones es el corazón de Entregalo, donde se gestionan las actividades principales relacionadas con el transporte de carga. Este módulo se divide en dos componentes esenciales: Remesas y Viajes/Manifiestos.',
+              "Los catálogos son listas de valores que se utilizan en Entregalo para estandarizar la información y facilitar la selección de valores en los diferentes formularios.",
           },
           items: [
-            'Modulos/Operaciones/Remesas',
-            'Modulos/Operaciones/Viajes-Manifiestos',
-            'Modulos/Operaciones/Cumplir-Remesas',
-            'Modulos/Operaciones/Cumplir-Manifiestos',
+            "Modulos/Catalogos/terceros",
+            "Modulos/Catalogos/vehiculos",
+            "Modulos/Catalogos/rutas",
           ],
         },
         {
-          type: 'category',
-          label: 'Catálogos',
+          type: "category",
+          label: "Logística",
           link: {
-            type: 'generated-index',
-            title: 'Catálogos',
+            type: "generated-index",
+            title: "Logística",
             description:
-              'Los catálogos son listas de valores que se utilizan en Entregalo para estandarizar la información y facilitar la selección de valores en los diferentes formularios.',
+              "El módulo de Logística es el corazón de Entregalo, donde se gestionan las actividades principales relacionadas con el transporte de carga. Este módulo se divide en dos componentes esenciales: Remesas y Viajes/Manifiestos.",
           },
           items: [
-            'Modulos/Catalogos/terceros',
-            'Modulos/Catalogos/vehiculos',
-            'Modulos/Catalogos/rutas',
+            "Modulos/Operaciones/Remesas",
+            "Modulos/Operaciones/Viajes-Manifiestos",
+            // 'Modulos/Operaciones/Cumplir-Remesas',
+            // 'Modulos/Operaciones/Cumplir-Manifiestos',
+          ],
+        },
+        {
+          type: "category",
+          label: "Generación de Documentos",
+          link: {
+            type: "generated-index",
+            title: "Generación de Documentos",
+            description: "Test",
+          },
+          items: ["Modulos/GeneracionDocumentos/Factura"],
+        },
+        {
+          type: "category",
+          label: "Reportes",
+          link: {
+            type: "generated-index",
+            title: "Reportes",
+            description: "test",
+          },
+          items: ["Modulos/Reportes/General"],
+        },
+        {
+          type: "category",
+          label: "Parámetros",
+          link: {
+            type: "generated-index",
+            title: "Parámetros",
+            description: "test",
+          },
+          items: [
+            "Modulos/Parametros/Tributos",
+            "Modulos/Parametros/Descuentos",
+            "Modulos/Parametros/ValoresBase",
+            "Modulos/Parametros/Documentos",
+            "Modulos/Parametros/Conceptos",
+            "Modulos/Parametros/Anticipos",
+            "Modulos/Parametros/Cuotas",
+            "Modulos/Parametros/ModalidadesDePago",
+          ],
+        },
+        {
+          type: "category",
+          label: "Configuraciones",
+          link: {
+            type: "generated-index",
+            title: "Configuraciones",
+            description: "test",
+          },
+          items: [
+            "Modulos/Configuraciones/Usuarios",
+            "Modulos/Configuraciones/Empresa",
+            "Modulos/Configuraciones/RNDC",
           ],
         },
       ],
